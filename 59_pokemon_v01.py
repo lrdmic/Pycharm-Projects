@@ -99,7 +99,7 @@ while True:
 # 1 Agregar un ciclo infinito que nos permita iniciar mas batallas (done)
 # 2 Agregar mas pokemons y permitir al usuario elegir cual utilizar (done)
 # 3 No pueden usar el mismo pokemon los 2 jugadores
-# 4 casi opcional, seria ideal que la clase pokemon estuviera en un modulo
+# 4 casi opcional, seria ideal que la clase pokemon estuviera en un modulo (done)
 # Opcional:
 # Agregar clases a los pokemon (Tierra, Electricidad, Fuego, Agua)
 # por ejemplo, si pokemon 1 es de agua, y pokemon 2 es de fuego
