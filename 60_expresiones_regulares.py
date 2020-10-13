@@ -133,13 +133,16 @@ que el patron sea opcional.
 *: coincide con cero o mas ocurrencias del patron.
 {x}: coincide con exactamente x ocurrencias del patron.
 {x, y}: coincide con al menos x y no mas de y ocurrencias. Si se omite x,
-el minimo es cero, y si se omite y, 
+el minimo es cero, y si se omite y, no hay maximo. Esto permite especificar
+a los otros como casos particulares: ? es {0,1}, + es {1,} y * es {,} o {0,}.
 Ejemplos:
 
 .* : cualquier cadena, de cualquier largo (incluyendo una cadena vacia)
 [a-z]{3,6}: entre 3 y 6 letras minusculas
 \d{4,}: al menos 4 digitos
 .*[hH]ola!?: una cadena cualquiera, seguida de hola o Hola, y terminando (o no) con un !
+"Mi nombre es Sterling, hola!"
+"Mi nombre es Sterling, hola"
 
 Otros Metacaracteres
 Existen otros metacaracteres en el lenguaje de las expresiones regulares:
