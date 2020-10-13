@@ -49,7 +49,7 @@ lista.agregarestudiante(est2)
 lista.mostrarestudiantes()
 
 # TAREA PARA EL ESTUDIANTE
-# Mejorar aun ams el juego de Pokemon
+# Mejorar aun mas el juego de Pokemon:
 # Una vez que termina una pelea de pokemon, guardar en un archivo externo que pokemon gano
 # y sumarle 1 a las batallas ganadas de dicho pokemon
 # Al finalizar una batalla nueva, que el programa nos indique cuantas batallas lleva ganadas
