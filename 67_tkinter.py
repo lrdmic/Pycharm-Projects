@@ -52,5 +52,39 @@ root.geometry("600x300")
 # Cambiar algunas opciones
 root.config(bg="black")
 
+# Vamos a hacer un frame hijo de la raiz
+frame = Frame(root)
+
+# Empaquetamos el frame dentro de la raiz y le damos su posicionamiento
+frame.pack(
+    side=RIGHT,
+    anchor=S,
+)
+
+# Redimencionamos ocupando todo el espacio de la raiz
+frame.pack(
+    fill="both",
+    expand=1
+)
+# Cambiamos el color del fondo de nuestro marco o frame
+frame.config(bg="blue")
+
+# Damos un tamano a nuestro frame
+frame.config(width=600, height=300)
+
+# Cambiar el cursor del raton, podemos darle un estilo al borde y un tamano
+frame.config(cursor="pirate")
+frame.config(relief="sunken")
+frame.config(bd=25)
+
+# Podemos asignar algunas configuraciones a la raiz a la vez
+root.config(
+    bg="black",
+    cursor="hand2",
+    relief="sunken",
+    bd=10
+)
+
+
 # Ejecutamos el metodo del bucle infinito
 root.mainloop()  # siempre va al final de nuestro programa
